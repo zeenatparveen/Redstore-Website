@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<meta name="viewport" content="width-device-width, intial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" width="125px"></a>
+				</div>
+				<nav>
+					<ul id="menuitems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="product.html">Product</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="index.html#contact">Contact</a></li>
+						<li><a href="account.html">Account</a></li>
+					</ul>
+				</nav>
+				<a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+				<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">	
+			</div>
+		</div>
+	</div>
+<div class="back">
+<!-------------About----------->
+<div class="about">
+	<img src="images/download.jpg">
+	<br>
+	<div class="About">
+		<p>We have always been committed towards diversity and inclusion at Redstore. As we continue to take steps in achieving our goal of being a true representation of an inclusive society and ushering inclusive workplaces and inclusive shopping experiences, a small but significant step has been to include transgender people in our operations network.
+
+		We have worked with our delivery service partner to open a delivery station in Gujarat, where everyone, from managers to associates and security is transgender. Additionally, we are running a pilot with transgender associates in a sort centre in Delhi and working on the inclusion of transgender associates in a Fulfilment centre in Sonipat. Last week, we had the opportunity to have an in-depth conversation with some of our transgender associates from Delhi and here are their heart-warming stories.</p>
+		<br>
+	</div>
+		<div>
+			<img src="images/human.jpg" class="centre">
+			<br>
+			<p>
+				Yogendra, 20, has joined Redstore as an associate and feels accepted at Redstore. He was introduced to Redstore by his Councilor Ms. Sarita from Pahal and he joined Redstore in the middle of the Covid-19 pandemic but is impressed with the measures taken by Redstore, “The work environment is friendly and the task force is cooperative and most important thing is that we maintain all protocols of social distancing including 6-ft mandatory distance, frequent sanitization of hands and wearing masks.”
+			</p>
+		</div>
+</div>
+<!----- brands-------->
+	<div class="brands">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-5">
+					<img src="images/allen.png">
+				</div>
+				<div class="col-5">
+					<img src="images/hrx.jpg">
+				</div>
+				<div class="col-5">
+					<img src="images/adidas.jpg">
+				</div>
+				<div class="col-5">
+					<img src="images/hm.png">
+				</div>
+				<div class="col-5">
+					<img src="images/levis.png">
+				</div>
+			</div>
+		</div>
+	</div>
+<!-----footer----->
+	<div class="footer" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and ios mobile phone.</p>
+					<div class="app-logo">
+						<a href="https://play.google.com/store?hl=en"><img src="images/play-store.png"></a>
+						<a href="https://www.apple.com/ios/app-store/"><img src="images/app-store.png"></a>
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="images/logo-white.png">
+					<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<a href="https://www.facebook.com/zeenatparveen45"><li>Facebook</li></a>
+						<a href="https://www.instagram.com/zeeenat.parveen/?hl=en"><li>Instagram</li></a>
+						<a href="https://www.youtube.com/"><li>Youtube</li></a>
+						<a href="https://plus.google.com/up/?continue=https://plus.google.com/share?url%3Dhttps://www.vendasta.com/blog/top-10-customer-review-websites/%26t%3DTop%2B10%2BReview%2BWebsites%2Bto%2BGet%2BMore%2BCustomer%2BReviews%2BOn%2B(2020)"><li>Gmail</li></a>
+					</ul>
+				</div>
+			</div> 
+			<hr>
+			<p class="Copyright">Copyright &copy; 2020- Zeenat Parveen </p>
+		</div>
+	</div>
+</div>
+<!-------js for toggle menu------>
+<script>
+	var menuitems=document.getElementById("menuitems");
+	menuitems.style.maxHeight="0px";
+	function menutoggle(){
+		if(menuitems.style.maxHeight=="0px"){
+			menuitems.style.maxHeight="200px";
+		}
+		else{
+			menuitems.style.maxHeight="0px";
+		}
+	}
+</script>
+</body>
+</html>
